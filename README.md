@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/65314799/98406876-57e5d380-2034-11eb-8a8c-cf7e9aaa28aa.png)
+
 # PupperCoin_Crowdsale
 
 An ERC20 token is created that will be minted through a Crowdsale contract that can be leveraged from the OpenZeppelin Solidity library.
