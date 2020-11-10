@@ -32,12 +32,3 @@ As mentioned previously, this contract inherits from the following OpenZeppelin 
   
  It is important to note that the `RefundableCrowdsale` constructor is called instead of the `RefundablePostDeliveryCrowdsale`contract because `RefundablePostDeliveryCrowdsale` inherits the `RefundableCrowdsale` constructor.
  
- ## Testing the Crowdsale
- 
- 1. Fund your account. I used the Ropsten Test Network so I funded my account using Ropsten Ethereum Faucet. https://faucet.dimensions.network/
- 2. Deploy PupperCoin.sol contract. Using "puppercoin" for name, "pup" for symbol, and setting initial supply to 0.
- 
- ![image](https://user-images.githubusercontent.com/65314799/98618922-c55d6280-22c7-11eb-8673-872582321226.png)
-
- 3. 
- 
