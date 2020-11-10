@@ -37,7 +37,23 @@ As mentioned previously, this contract inherits from the following OpenZeppelin 
  1. Connect to a test network such as Kovan or Ropsten
  2. Fund your account using a test faucet
  3. Compile `Crowdsale.sol` and deploy `PupperCoinSaleDeployer` from the contract dropdown menu.
- 4. Under deploy, set name to "puppercoin", symbol as "pup", and goal to 300.
+ 4. Under deploy, set name to "puppercoin", symbol as "pup", wallet as the address of your Metamask and goal to 300.
+ 
+ ![image](https://user-images.githubusercontent.com/65314799/98741353-1a55b300-2372-11eb-9473-1b346e59d2ed.png)
+
  4. Hit Transact and hit confirm on the Metamask popup.
- 4. Under Deployed Contracts, copy the value given for token_address
+ 5. Under Deployed Contracts, copy the value given for token_address
+ 
+ ![image](https://user-images.githubusercontent.com/65314799/98741464-512bc900-2372-11eb-8f39-eed4d4e40c31.png)
+ 
+6. Select `PupperCoin` from the contract dropdown menu and paste the token address to At Address field then click the At Address button.
+7. Copy the token_sale_address from the `PupperCoinSaleDeployer` deployed contract and switch the contract to `PupperCoinSale` then paste the token_sale_address into the AT Address field and click At Address button.
+8. Under Deployed Contracts, expand the PupperCoinSale contract and enter an address from Ganache as the beneficiary under buyTokens.
+
+![image](https://user-images.githubusercontent.com/65314799/98742350-ea0f1400-2373-11eb-87b6-499066e8d046.png)
+
+9. Change to desired value and transact.
+
+ 
+ 
  
