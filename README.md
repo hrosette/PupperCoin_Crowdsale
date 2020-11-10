@@ -32,3 +32,12 @@ As mentioned previously, this contract inherits from the following OpenZeppelin 
   
  It is important to note that the `RefundableCrowdsale` constructor is called instead of the `RefundablePostDeliveryCrowdsale`contract because `RefundablePostDeliveryCrowdsale` inherits the `RefundableCrowdsale` constructor.
  
+ ## Testing the Crowdsale
+ 
+ 1. Connect to a test network such as Kovan or Ropsten
+ 2. Fund your account using a test faucet
+ 3. Compile `Crowdsale.sol` and deploy `PupperCoinSaleDeployer` from the contract dropdown menu.
+ 4. Under deploy, set name to "puppercoin", symbol as "pup", and goal to 300.
+ 4. Hit Transact and hit confirm on the Metamask popup.
+ 4. Under Deployed Contracts, copy the value given for token_address
+ 
